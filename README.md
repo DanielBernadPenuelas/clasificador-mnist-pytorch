@@ -110,8 +110,10 @@ clasificador-mnist-pytorch/
 └── resultados/               # Gráficas y métricas
     └── .gitkeep
 Descripción de módulos
-ArchivoDescripciónmodelo.pyDefine la clase RedNeuronalSimple con arquitectura configurabledatos.pyGestiona descarga, transformaciones y DataLoaders de MNISTentrenamiento.pyImplementa el loop de entrenamiento y evaluaciónutilidades.pyFunciones para guardar/cargar modelos y visualizar resultadosconfiguracion.pyCentraliza todos los hiperparámetros del proyectoprincipal.pyOrquesta el flujo completo del entrenamiento
- Arquitectura del Modelo
+ArchivoDescripciónmodelo.pyDefine la clase RedNeuronalSimple con arquitectura configurabledatos.pyGestiona descarga, transformaciones y DataLoaders de MNISTentrenamiento.py
+Implementa el loop de entrenamiento y evaluaciónutilidades.pyFunciones para guardar/cargar modelos y visualizar resultadosconfiguracion.py
+Centraliza todos los hiperparámetros del proyectoprincipal.pyOrquesta el flujo completo del entrenamiento
+Arquitectura del Modelo
 La red neuronal implementada tiene la siguiente estructura:
 Entrada (784) 
     ↓
@@ -143,7 +145,7 @@ Tiempo de entrenamiento
 CPU: ~2-5 minutos
 GPU: ~30-60 segundos
 
-⚙️ Configuración
+ Configuración
 Todos los hiperparámetros están centralizados en configuracion.py:
 python# Datos
 TAMAÑO_LOTE = 64
@@ -195,13 +197,11 @@ Documenta todas las funciones
 Sigue el estilo PEP 8
 Añade tests si es posible
 
- Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
  Autor
-Tu Nombre
+Daniel Bernad Peñuelas
 
-GitHub: @tu-usuario
-Email: tu-email@ejemplo.com
+GitHub: Daniel Bernad Peñuelas
+Email: bernadd2003@gmail.com
 
  Agradecimientos
 
