@@ -126,12 +126,6 @@ Capa Oculta 2 (64 neuronas)
 ReLU + Dropout(0.2)
     ↓
 Salida (10 clases)
-Parámetros del modelo: ~101,770 parámetros entrenables
- Resultados
-Métricas esperadas
-Con la configuración por defecto (5 épocas):
-MétricaEntrenamientoPruebaPrecisión~98-99%~97-98%Pérdida~0.05~0.08
-Visualizaciones
 El entrenamiento genera automáticamente gráficas de:
 
  Evolución de la pérdida (loss)
