@@ -206,5 +206,4 @@ La comunidad de Machine Learning
 
 <div align="center">
  Si este proyecto te ha sido útil, considera darle una estrella 
-Hecho con y Python
 </div>
