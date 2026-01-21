@@ -50,11 +50,17 @@ source venv/bin/activate
 Instalar dependencias
 
 bashpip install -r requirements.txt
-Uso
-Entrenamiento rápido
+
+
+Uso: Entrenamiento rápido
+
+
 Para entrenar el modelo con la configuración por defecto:
 bashpython principal.py
-El script automáticamente:
+
+
+Funcionamiento del programa:
+
 
 Descarga el dataset MNIST
 Crea el modelo
