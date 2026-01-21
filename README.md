@@ -23,7 +23,7 @@ Pasos de instalación
 
 Clonar el repositorio
 
-bashgit clone https://github.com/tu-usuario/clasificador-mnist-pytorch.git
+bashgit clone https://github.com/DanielBernadPenuelas/clasificador-mnist-pytorch.git
 cd clasificador-mnist-pytorch
 
 Crear un entorno virtual (recomendado)
