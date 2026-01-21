@@ -1,10 +1,8 @@
 # Clasificador mnist con pytorch
 Clasificador de Dígitos MNIST con PyTorch
 <div align="center">
-Mostrar imagen
-Mostrar imagen
-Mostrar imagen
 Proyecto modular de Machine Learning para clasificación de dígitos escritos a mano usando redes neuronales
+ 
 Características •
 Instalación •
 Uso •
