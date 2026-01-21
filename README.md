@@ -28,7 +28,7 @@ cd clasificador-mnist-pytorch
 
 Crear un entorno virtual (recomendado)
 
-bash# En Windows
+En Windows
 python -m venv venv
 venv\Scripts\activate
 
