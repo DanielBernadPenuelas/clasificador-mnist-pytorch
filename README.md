@@ -1,14 +1,5 @@
 # Clasificador mnist con pytorch
 Clasificador de Dígitos MNIST con PyTorch
-<div align="center">
-Proyecto modular de Machine Learning para clasificación de dígitos escritos a mano usando redes neuronales
- 
-Características •
-Instalación •
-Uso •
-Estructura •
-Resultados
-</div>
 
  Descripción
 Este proyecto implementa un clasificador de dígitos utilizando el famoso dataset MNIST. Está diseñado con una arquitectura modular que facilita el mantenimiento, la escalabilidad y el aprendizaje de buenas prácticas en Machine Learning.
@@ -68,7 +59,10 @@ Genera gráficas en resultados/graficas_entrenamiento.png
 
 Personalizar el entrenamiento
 Edita configuracion.py para modificar los hiperparámetros:
-python# Ejemplo de configuración personalizada
+python
+
+# Ejemplo de configuración personalizada
+
 EPOCAS = 10
 TASA_APRENDIZAJE = 0.0005
 TAMAÑO_LOTE = 128
@@ -113,6 +107,7 @@ clasificador-mnist-pytorch/
 │   └── .gitkeep
 └── resultados/               # Gráficas y métricas
     └── .gitkeep
+    
 Descripción de módulos
 ArchivoDescripciónmodelo.pyDefine la clase RedNeuronalSimple con arquitectura configurabledatos.pyGestiona descarga, transformaciones y DataLoaders de MNISTentrenamiento.py
 Implementa el loop de entrenamiento y evaluaciónutilidades.pyFunciones para guardar/cargar modelos y visualizar resultadosconfiguracion.py
